@@ -6,6 +6,7 @@ window.Vue = require('vue');
 
 
 Vue.component('message-component', require('./components/Message.vue').default);
+Vue.component('users', require('./components/Users.vue').default);
 
 
 const app = new Vue({
